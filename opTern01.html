@@ -10,10 +10,17 @@
     */
 
     //Entrada
+    const preço = Number(prompt(`Informe o preço do livro`));
+    const ano = Number(prompt(`Informe o ano de publicação do livro`));
+    let valorfinallivro;
 
+    (ano <= 2010)? valorfinallivro = preço - 10
+        (ano <= 2020)? valorfinallivro = preço - 7
+            (ano >= 2020)? valorfinallivro = preço - 3
 
     //Processamento
-
+    document.write(`Esse é o valor com desconto ${valorfinallivro}
+    e esse é o valor sem o desconto ${preço}`)
 
     //Saída
 

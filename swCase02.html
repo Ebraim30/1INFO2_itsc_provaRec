@@ -1,15 +1,29 @@
 <meta charset="UTF-8">
 <script>
     /*
-    Problema: Peça para o programa perguntar para o usuário em que curso que está matriculado. Caso o usuário responta Medicina Veterinária (MV), o programa apresentará a mensagem "Curso de 5 anos". Caso o usuário informe Sistemas de Inofrmação (SI), o programa apresentará a mensagem "Curso de 4 anos". Caso informe Agronomia (AG), o programa apresentará a mensagem "Curso de 4 anos e meio",
+    Problema: Peça para o programa perguntar para o usuário em que curso que está matriculado. 
+    Caso o usuário responta Medicina Veterinária (MV), o programa apresentará a mensagem "Curso de 5 anos".
+    Caso o usuário informe Sistemas de Inofrmação (SI), o programa apresentará a mensagem "Curso de 4 anos". 
+    Caso informe Agronomia (AG), o programa apresentará a mensagem "Curso de 4 anos e meio",
     Apresente a mensagem em tela.
     */
 
     //Entrada
-
+    const curso = prompt("Informe o curso q vc esta matriculado")
 
     //Processamento
-
+    switch (curso) {
+        case "Mv":
+        Curso de 5 anos
+            break;
+        case "Si" :
+            Curso de 4 anos
+            break;
+            case "Ag" :
+            Curso de 4 anos e meio
+            break;
+    }
+    document.write(`Esse é o tempo de curso ${curso}`)
 
     //Saída
 
