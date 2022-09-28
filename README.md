@@ -1,7 +1,6 @@
-# **PROVA A**
 # *E01, E02: Operador Ternário*
 
-### **E01: Taxa de Juros**
+### **E01: Oferta de livros**
 
 Uma livraria está fazendo uma oferta de livros.
 
@@ -12,9 +11,9 @@ De acordo com o ano de publicação do livro, haverá um desconto diferente.
 
 Peça para o usuário informar o preço atual do livro e calcule o preço final, de acordo com a regra descrita acima.
 
-### **E02: Média do aluno**
+### **E02: Preço da consulta**
 
-Peça para o usuário informar o valor cobrado para consulta no hospital veterinário, durante o horário comercial.
+Peça para o usuário informar o preço cobrado para consulta no hospital veterinário, durante o horário comercial.
 
 Contudo, caso a consulta seja realizada durante a noite, terá um acréscimo de 20%.
 
@@ -25,7 +24,7 @@ Portanto, pergunte também ao usuário se a consulta foi realizada em horário n
 
 # *E03, E04, E05: Switch...Case*
 
-### **E03: Prova de Planilhas**
+### **E03: Streamings consumidos**
 Peça para o usuário informar qual streaming consome, que poderá ser Netflix (NE), Amazon Prime (AP), Spotify (SP), YouTube (YT).
 
 De acordo com o streaming informado pelo usuário, apresente a seguinte mensagem:
@@ -35,7 +34,7 @@ De acordo com o streaming informado pelo usuário, apresente a seguinte mensagem
 * Caso seja Spotify (SP), o programa mostrará a mensagem "Músicas".
 * Caso seja YouTube (YT), o programa mostrará a mensagem "Influencer".
 
-### **E04: Compra de carro**
+### **E04: Curso matriculado**
 Peça para o programa perguntar para o usuário em que curso que está matriculado.
 
 Caso o usuário responta Medicina Veterinária (MV), o programa apresentará a mensagem "Curso de 5 anos".
@@ -46,7 +45,7 @@ Caso informe Agronomia (AG), o programa apresentará a mensagem "Curso de 4 anos
 
 Apresente a mensagem em tela.
 
-### **E05: Aplicar desconto na compra de celular**
+### **E05: Comprar bebida**
 Considere que uma pessoa está diante de uma máquina de compra, que possui para venda algumas bebidas distintas, tais como:
 
 * Refrigerante (RF): R$ 4,50
