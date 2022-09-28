@@ -2,9 +2,9 @@
 
 ### **E01: Oferta de livros**
 
-Uma livraria está fazendo uma oferta de livros.
+Peça para o usuário informar o preço atual do livro e o seu ano de publicação. 
 
-De acordo com o ano de publicação do livro, haverá um desconto diferente.
+Após, calcule o preço final, de acordo com a regra descrita abaixo.
 * Se o livro foi publicado antes de 2010 (inclusive), será dado um desconto de R$ 10,00.
 * Se o livro foi publicado antes de 2020 (inclusive), será dado um desconto de R$ 7,00.
 * Se o livro foi publicado após 2020, o desconto será menor, de apenas R$ 3,00.
@@ -13,13 +13,13 @@ Peça para o usuário informar o preço atual do livro e calcule o preço final,
 
 ### **E02: Preço da consulta**
 
-Peça para o usuário informar o preço cobrado para consulta no hospital veterinário, durante o horário comercial.
+Peça para o usuário informar o valor cobrado para consulta no hospital veterinário, durante o horário comercial. 
 
-Contudo, caso a consulta seja realizada durante a noite, terá um acréscimo de 20%.
-
-E, caso a consulta seja realizada durante a madrugada, haverá um acréscimo de 50%.
+Contudo, caso a consulta seja realizada durante a noite, terá um acréscimo de 20%. E, caso a consulta seja realizada durante a madrugada, haverá um acréscimo de 50%.
 
 Portanto, pergunte também ao usuário se a consulta foi realizada em horário normal ("D"), durante a noite ("N") ou durante a madrugada ("M").
+
+Apresente o preço final que será cobrado pela consulta.
 
 
 # *E03, E04, E05: Switch...Case*
@@ -32,16 +32,14 @@ De acordo com o streaming informado pelo usuário, apresente a seguinte mensagem
 * Caso seja Netflix (NE), o programa mostrará a mensagem: "Filmes e Séries".
 * Caso seja Amazon Prime (AP), o programa mostrará a mensagem "Filmes e Séries".
 * Caso seja Spotify (SP), o programa mostrará a mensagem "Músicas".
-* Caso seja YouTube (YT), o programa mostrará a mensagem "Influencer".
+* Caso seja YouTube (YT), o programa mostrará a mensagem "Influencers".
 
 ### **E04: Curso matriculado**
 Peça para o programa perguntar para o usuário em que curso que está matriculado.
 
-Caso o usuário responta Medicina Veterinária (MV), o programa apresentará a mensagem "Curso de 5 anos".
-
-Caso o usuário informe Sistemas de Inofrmação (SI), o programa apresentará a mensagem "Curso de 4 anos".
-
-Caso informe Agronomia (AG), o programa apresentará a mensagem "Curso de 4 anos e meio",
+* Caso o usuário responta Medicina Veterinária (MV), o programa apresentará a mensagem "Curso de 5 anos".
+* Caso o usuário informe Sistemas de Inofrmação (SI), o programa apresentará a mensagem "Curso de 4 anos".
+* Caso informe Agronomia (AG), o programa apresentará a mensagem "Curso de 4 anos e meio".
 
 Apresente a mensagem em tela.
 
@@ -55,9 +53,11 @@ Considere que uma pessoa está diante de uma máquina de compra, que possui para
 
 O usuário informará uma das opções citadas acima para compra.
 
-Pergunte também a forma de pagamento. Caso a forma de pagamento seja em dinheiro (D), e a bebida foi ou refrigerante ou suco natural, haverá desconto de 20%.
+Pergunte também a forma de pagamento.
 
-Contudo, caso a forma de pagamento seja no Cartão (C), e a bebida foi água (Com ou Sem Gás), haverá desconto de apenas 10%.
+Caso a forma de pagamento seja em dinheiro (D), e a bebida foi ou refrigerante ou suco natural, haverá desconto de 20%.
+
+Contudo, caso a forma de pagamento seja no Cartão (C), e a bebida foi água (Com ou Sem Gás), haverá desconto de apenas 10%. 
 
 Para as demais opções, não haverá desconto no preço.
 
